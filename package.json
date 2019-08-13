@@ -1,6 +1,6 @@
 {
   "name": "@aicdev/snowflakejs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Build beautiful snowflakes, or just let it snow. Winter is coming to your page",
   "license": "Apache-2.0",
   "author": "aicdev",
