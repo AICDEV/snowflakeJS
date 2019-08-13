@@ -1,10 +1,10 @@
 {
-  "name": "snowflakejs",
+  "name": "@aicdev/snowflakejs",
   "version": "0.0.1",
   "description": "Build beautiful snowflakes, or just let it snow. Winter is coming to your page",
   "license": "Apache-2.0",
   "author": "aicdev",
-  "main": "dist/snowflake.min",
+  "main": "src/index.js",
   "keywords": [
     "animation",
     "snow",
