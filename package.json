@@ -1,0 +1,23 @@
+{
+  "name": "snowflakejs",
+  "version": "0.0.1",
+  "description": "Build beautiful snowflakes, or just let it snow",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn run webpack --config webpack.config.js",
+    "start": "yarn run webpack-dev-server --open"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "svg-inline-loader": "^0.8.0",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
