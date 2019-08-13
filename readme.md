@@ -24,7 +24,7 @@ Incluse the snowflake.min.js (located in dist folder) file in your webpage. Afte
 
 ```javascript
    const snowflake = new SnowflakeJs();
-            snowflake.init();
+    snowflake.init();
 ```
 
 Currently it comes as umd definition.
