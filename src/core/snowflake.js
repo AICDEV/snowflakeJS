@@ -2,7 +2,7 @@ import svg from "../assets/Snowflake.svg";
 
 class Snowflake {
 
-    constructor(element, span, remove, uuid, lifetime, maxSpeed, width, height) {
+    constructor(element, span, remove, uuid, lifetime, maxSpeed, maxSize) {
         this.element = element;
         this.span = span;
         this.remove = remove;
@@ -10,9 +10,10 @@ class Snowflake {
         this.uuid = uuid;
         this.lifetime = lifetime;
         this.maxSpeed = maxSpeed;
+        this.maxSize = maxSize;
         this.isRemoving = false;
-        this.element.style.width = `${width}px`;
-        this.element.style.height = `${height}px`;
+        this.element.style.width = `${this._getRandomSnowsize()}px`;
+        this.element.style.height = `${this._getRandomSnowsize()}px`;
         this.speed = this._getSpeed();
         this._getRandomStartPosition();
     }
@@ -42,6 +43,10 @@ class Snowflake {
 
     _getSpeed() {
         return Math.floor((Math.random() * this.maxSpeed) + 1);
+    }
+
+    _getRandomSnowsize() {
+        return Math.floor((Math.random() * this.maxSize) + 1);
     }
 }
 

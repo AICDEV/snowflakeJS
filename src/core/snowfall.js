@@ -5,13 +5,12 @@ class SnowflakeJs {
 
     elements = [];
 
-    constructor(frames=25, count=50, lifetime=5000, maxSpeed=4, width=15, heigth=15) {
+    constructor(frames=25, count=50, lifetime=5000, maxSpeed=4, maxSize=15) {
         this.frames = 1000/frames;
         this.count = count;
         this.lifetime = lifetime;
         this.maxSpeed = maxSpeed;
-        this.width = width;
-        this.heigth = heigth;
+        this.maxSize = maxSize;
         this._buildElements();
     }
 
@@ -36,16 +35,16 @@ class SnowflakeJs {
         document.body.append(el);
         this.elements.push({
             uuid: elUuid,
-            element: new Snowflake(el, this._spanElement.bind(this),this._removeElement.bind(this), elUuid, this.lifetime, this.maxSpeed, this.width, this.heigth)
+            element: new Snowflake(el, this._spanElement.bind(this),this._removeElement.bind(this), elUuid, this.lifetime, this.maxSpeed, this.maxSize)
         });
     }
 
     _removeElement(uuid) {
         const index = this.elements.findIndex((entry) => entry.uuid === uuid);
         if(index > -1) {
+            this.elements.slice(index,1);
             this._spanElement();
             setTimeout(() => {
-                this.elements.slice(index,1);
                 document.getElementById(uuid).remove();
             },this.lifetime);
         }

@@ -23,7 +23,7 @@ Incluse the snowflake.min.js (located in dist folder) file in your webpage. Afte
 
 
 ```javascript
-const snowflake = new SnowflakeJs(25,250,5000,5,15,15);
+const snowflake = new SnowflakeJs(25,250,5000,5,25);
 snowflake.init();
 ```
 
@@ -44,8 +44,7 @@ Parameters in detail:
 - 250 = inital count of snowflakes
 - 5000 = lifetime in ms 
 - 5 = max fall speed
-- 15 = width from snowflake
-- 15 = height from snowflake
+- 25 = max size of snowflake
 
 LET IT SNOW.
 
