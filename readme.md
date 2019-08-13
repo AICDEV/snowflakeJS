@@ -17,10 +17,17 @@ and see snowflakeJS in action.
 ### How to use
 Incluse the snowflake.min.js (located in dist folder) file in your webpage. After that you can use it like follow:
 
-```javascript
-const snowflake = new window.snowflakeJs(25, 250, 5000, 5, 15,15);
-snowflake.init();
+```html
+ <script type="text/javascript" src="snowflake.min.js"></script></head>
 ```
+
+
+```javascript
+   const snowflake = new SnowflakeJs();
+            snowflake.init();
+```
+
+Currently it comes as umd definition.
 
 Parameters in detail:
 - 25 = FPS

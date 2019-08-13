@@ -1,8 +1,23 @@
 {
   "name": "snowflakejs",
   "version": "0.0.1",
-  "description": "Build beautiful snowflakes, or just let it snow",
-  "license": "MIT",
+  "description": "Build beautiful snowflakes, or just let it snow. Winter is coming to your page",
+  "license": "Apache-2.0",
+  "author": "aicdev",
+  "main": "dist/snowflake.min",
+  "keywords": [
+    "animation",
+    "snow",
+    "snowflakeJS",
+    "vanillascript",
+    "winter",
+    "winteriscoming"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AICDEV/snowflakeJS"
+  },
+  "homepage": "https://github.com/AICDEV/snowflakeJS",
   "scripts": {
     "build": "yarn run webpack --config webpack.config.js",
     "start": "yarn run webpack-dev-server --open"

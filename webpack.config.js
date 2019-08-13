@@ -7,7 +7,8 @@ module.exports = {
     mode: 'production',
     output: {
         filename: 'snowflake.min.js',
-        path: path.resolve(__dirname, 'dist')
+        path: path.resolve(__dirname, 'dist'),
+        libraryTarget: 'umd'
     },
     devtool: 'inline-source-map',
     devServer: {
