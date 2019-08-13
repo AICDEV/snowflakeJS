@@ -18,11 +18,11 @@ snowfall.init();
 ```
 
 Parameters in detail:
-    - 25 = FPS
-    - 250 = inital count of snowflakes
-    - 5000 = lifetime in ms 
-    - 5 = max fall speed
-    - 15 = width from snowflake
-    - 15 = height from snowflake
+- 25 = FPS
+- 250 = inital count of snowflakes
+- 5000 = lifetime in ms 
+- 5 = max fall speed
+- 15 = width from snowflake
+- 15 = height from snowflake
 
 LET IT SNOW.
