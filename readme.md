@@ -4,6 +4,11 @@
 
 With snowflakeJS you can easily let it snow on your webpage. There is no need for special css or canvas, just pure javascript.
 
+### Screenshot
+Preview:
+![alt text](https://github.com/AICDEV/snowflakeJS/blob/master/example.png)
+
+
 ### How to use when you clone/checkout this repository
 If you check it out from this repository please run "yarn install" to install all necessary dependencies.
 After that you can run "yarn build" to create a production bundle or "yarn start" to launch a webservice on port 8080
