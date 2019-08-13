@@ -23,7 +23,7 @@ Incluse the snowflake.min.js (located in dist folder) file in your webpage. Afte
 
 
 ```javascript
-   const snowflake = new SnowflakeJs();
+    const snowflake = new SnowflakeJs();
     snowflake.init();
 ```
 
