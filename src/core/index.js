@@ -1,1 +1,1 @@
-export {SnowfallJs} from "./snowfall";
+export {SnowflakeJs} from "./snowfall";

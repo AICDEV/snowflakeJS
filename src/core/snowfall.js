@@ -1,7 +1,7 @@
 import {Snowflake} from "./snowflake";
 import {addClassToElement, uuid, addAttributeToElement} from "./utils";
 
-class SnowfallJs {
+class SnowflakeJs {
 
     elements = [];
 
@@ -64,4 +64,4 @@ class SnowfallJs {
     }
 }
 
-export {SnowfallJs};
+export {SnowflakeJs};

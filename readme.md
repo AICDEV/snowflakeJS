@@ -13,8 +13,8 @@ and see snowflakeJS in action.
 Incluse the snowflake.min.js (located in dist folder) file in your webpage. After that you can use it like follow:
 
 ```javascript
-const snowfall = new SnowfallJs(25, 250, 5000, 5, 15,15);
-snowfall.init();
+const snowflake = new window.snowflakeJs(25, 250, 5000, 5, 15,15);
+snowflake.init();
 ```
 
 Parameters in detail:

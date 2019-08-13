@@ -18,6 +18,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             title: 'snowflakeJS',
             template: './src/index.html',
+            inject: "head"
         })
     ],
     module: {
