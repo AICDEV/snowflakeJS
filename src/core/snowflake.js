@@ -14,6 +14,8 @@ class Snowflake {
         this.isRemoving = false;
         this.element.style.width = `${this._getRandomSnowsize()}px`;
         this.element.style.height = `${this._getRandomSnowsize()}px`;
+        this.element.style.zIndex = "9999999";
+        this.element.style.display = "block";
         this.speed = this._getSpeed();
         this._getRandomStartPosition();
     }
@@ -32,7 +34,7 @@ class Snowflake {
         if(!this.isRemoving) {
             if(this.initRect.y < this.maxDown) {
                 this.initRect.y += this.speed;
-                this.element.style.top = this.initRect.y+".px";
+                this.element.style.top = this.initRect.y+"px";
                 return;            
             } else {
                 this.isRemoving = true;
