@@ -4,6 +4,9 @@
 
 With snowflakeJS you can easily let it snow on your webpage. There is no need for special css or canvas, just pure javascript.
 
+### Live demo
+[Demo](https://aicdev.github.io/game-of-thrones-coming-soon-page/)
+
 ### Screenshot
 Preview:
 ![alt text](https://github.com/AICDEV/snowflakeJS/blob/master/example.png)
